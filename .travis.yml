@@ -15,8 +15,6 @@ env:
 jdk:
   - oraclejdk6
 notifications:
-  email:
-    - petermartischka@googlemail.com
   irc:
     channels:
       - "irc.freenode.org#etherpad-lite-dev"
