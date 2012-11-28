@@ -886,3 +886,14 @@ input[type=checkbox] {
 #editorcontainer {
     top: 0px;
 }
+
+#vokalicon {
+  z-index: 400;
+  position: fixed;
+  bottom: 18px;
+  right: 20px;
+  height: 128px;
+  width: 128px;
+  background-color: #fff;
+  background-image: url("../../static/img/vokal_logo.jpg");
+}
