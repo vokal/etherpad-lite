@@ -879,14 +879,6 @@ input[type=checkbox] {
     }
 }
 
-#editbar {
-    display: none;
-}
-
-#editorcontainer {
-    top: 0px;
-}
-
 #vokalicon {
   z-index: 400;
   position: fixed;
@@ -896,4 +888,18 @@ input[type=checkbox] {
   width: 128px;
   background-color: #fff;
   background-image: url("../../static/img/vokal_logo.jpg");
+}
+
+.hidden {
+    display: none;
+}
+
+.toolbar #vokallogo {
+  position: relative;
+  list-style: none;
+  padding-right: 3px;
+  padding-left: 10px;
+  z-index: 2;
+  overflow: hidden;
+  float: left
 }

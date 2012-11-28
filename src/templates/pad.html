@@ -57,62 +57,63 @@
             <div id="overlay">
                 <div id="overlay-inner"></div>
             </div>
+            <img id="vokallogo" src="../../static/img/vokal_text_logo.png" />
             <ul class="menu_left">
                 <% e.begin_block("editbarMenuLeft"); %>
-                <li class="acl-write" id="bold" data-key="bold">
+                <li class="acl-write hidden" id="bold" data-key="bold">
                     <a class="grouped-left" data-l10n-id="pad.toolbar.bold">
                       <span class="buttonicon buttonicon-bold"></span>
                     </a>
                 </li>
-                <li class="acl-write" id="italic" data-key="italic">
+                <li class="acl-write hidden" id="italic" data-key="italic">
                     <a class="grouped-middle" data-l10n-id="pad.toolbar.italic">
                       <span class="buttonicon buttonicon-italic"></span>
                     </a>
                 </li>
-                <li class="acl-write" id="underline" data-key="underline">
+                <li class="acl-write hidden" id="underline" data-key="underline">
                     <a class="grouped-middle" data-l10n-id="pad.toolbar.underline">
                       <span class="buttonicon buttonicon-underline"></span>
                     </a>
                 </li>
-                <li class="acl-write" id="strikethrough" data-key="strikethrough">
+                <li class="acl-write hidden" id="strikethrough" data-key="strikethrough">
                     <a class="grouped-right" data-l10n-id="pad.toolbar.strikethrough">
                       <span class="buttonicon buttonicon-strikethrough"></span>
                     </a>
                 </li>
-                <li class="acl-write separator"></li>
-                <li class="acl-write" id="oderedlist" data-key="insertorderedlist">
+                <li class="acl-write separator hidden"></li>
+                <li class="acl-write hidden" id="oderedlist" data-key="insertorderedlist">
                     <a class="grouped-left" data-l10n-id="pad.toolbar.ol">
                       <span class="buttonicon buttonicon-insertorderedlist"></span>
                     </a>
                 </li>
-                <li class="acl-write" id="unoderedlist" data-key="insertunorderedlist">
+                <li class="acl-write hidden" id="unoderedlist" data-key="insertunorderedlist">
                     <a class="grouped-middle" data-l10n-id="pad.toolbar.ul">
                       <span class="buttonicon buttonicon-insertunorderedlist"></span>
                     </a>
                 </li>
-                <li class="acl-write" id="indent" data-key="indent">
+                <li class="acl-write hidden" id="indent" data-key="indent">
                     <a class="grouped-middle" data-l10n-id="pad.toolbar.indent">
                       <span class="buttonicon buttonicon-indent"></span>
                     </a>
                 </li>
-                <li class="acl-write" id="outdent" data-key="outdent">
+                <li class="acl-write hidden" id="outdent" data-key="outdent">
                     <a class="grouped-right" data-l10n-id="pad.toolbar.unindent">
                       <span class="buttonicon buttonicon-outdent"></span>
                     </a>
                 </li>
-                <li class="acl-write separator"></li>
-                <li class="acl-write" id="undo" data-key="undo">
+                <li class="acl-write separator hidden"></li>
+                <li class="acl-write hidden" id="undo" data-key="undo">
                     <a class="grouped-left" data-l10n-id="pad.toolbar.undo">
                       <span class="buttonicon buttonicon-undo"></span>
                     </a>
                 </li>
-                <li class="acl-write" id="redo" data-key="redo">
+                <li class="acl-write hidden" id="redo" data-key="redo">
                     <a class="grouped-right" data-l10n-id="pad.toolbar.redo">
                       <span class="buttonicon buttonicon-redo"></span>
                     </a>
                 </li>
-                <li class="acl-write separator"></li>
-                <li class="acl-write" id="clearAuthorship" data-key="clearauthorship">
+                <li class="acl-write separator hidden"></li>
+                <li class="acl-write hidden" id="clearAuthorship" data-key="clearauthorship">
                     <a data-l10n-id="pad.toolbar.clearAuthorship">
                       <span class="buttonicon buttonicon-clearauthorship"></span>
                     </a>
@@ -121,33 +122,33 @@
             </ul>
             <ul class="menu_right">
                 <% e.begin_block("editbarMenuRight"); %>
-                <li data-key="import_export">
+                <li class="hidden" data-key="import_export">
                     <a class="grouped-left" id="importexportlink" data-l10n-id="pad.toolbar.import_export">
                         <span class="buttonicon buttonicon-import_export"></span>
                     </a>
                 </li>
-                <li onClick="document.location = document.location.pathname+ '/timeslider'">
+                <li class="hidden" onClick="document.location = document.location.pathname+ '/timeslider'">
                     <a id="timesliderlink" class="grouped-middle" data-l10n-id="pad.toolbar.timeslider">
                         <span class="buttonicon buttonicon-history"></span>
                     </a>
                 </li>
-                <li class="acl-write" data-key="savedRevision">
+                <li class="acl-write hidden" data-key="savedRevision">
                     <a class="grouped-right" id="revisionlink" data-l10n-id="pad.toolbar.savedRevision">
                         <span class="buttonicon buttonicon-savedRevision"></span>
                     </a>
                 </li>
-                <li class="acl-write separator"></li>
-                <li class="acl-write" data-key="settings">
+                <li class="acl-write separator hidden"></li>
+                <li class="acl-write hidden" data-key="settings">
                     <a class="grouped-left" id="settingslink" data-l10n-id="pad.toolbar.settings">
                         <span class="buttonicon buttonicon-settings"></span>
                     </a>
                 </li>
-                <li data-key="embed">
+                <li class="hidden" data-key="embed">
                     <a class="grouped-right" id="embedlink" data-l10n-id="pad.toolbar.embed">
                         <span class="grouped-right buttonicon buttonicon-embed"></span>
                     </a>
                 </li>
-                <li class="separator"></li>
+                <li class="separator hidden"></li>
                 <li id="usericon" data-key="showusers">
                     <a data-l10n-id="pad.toolbar.showusers">
                         <span class="buttonicon buttonicon-showusers"></span>
