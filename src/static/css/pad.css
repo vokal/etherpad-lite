@@ -494,6 +494,7 @@ table#otheruserstable {
   float: right;
 }
 #chaticon {
+  display: none;
   z-index: 400;
   position: fixed;
   bottom: 0px;
