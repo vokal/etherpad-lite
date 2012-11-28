@@ -59,6 +59,7 @@ var padeditor = (function()
 
       // view bar
       $("#viewbarcontents").show();
+      self.ace.setProperty("textface", "monospace");
     },
     initViewOptions: function()
     {
@@ -109,7 +110,7 @@ var padeditor = (function()
         self.ace.setProperty("showsauthorcolors", !settings.noColors);
 
       v = getOption('useMonospaceFont', false);
-      self.ace.setProperty("textface", (v ? "monospace" : "Arial, sans-serif"));
+      self.ace.setProperty("textface", "monospace");
       $("#viewfontmenu").val(v ? "monospace" : "normal");
     },
     dispose: function()
