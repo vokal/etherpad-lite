@@ -878,3 +878,11 @@ input[type=checkbox] {
       line-height: 24px
     }
 }
+
+#editbar {
+    display: none;
+}
+
+#editorcontainer {
+    top: 0px;
+}
